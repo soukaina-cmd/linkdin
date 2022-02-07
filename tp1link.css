@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:whitesmoke;
+}
+/* linden */
+.lin{
+    color: rgb(9, 88, 153);
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 35px;
+    cursor: pointer;
+    
+}
+/* div qui range le tous */
+#ta{
+ border: 1px solid beige;
+ border-radius: 15px;
+    padding-top: 20px;
+    background-color: white;
+    padding: 20px;
+}
+/* #hr-text{ 
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    opacity: .5;
+    
+    &:before {
+        content: '';
+        background:linear-gradient(to right, transparent, #818078, transparent);
+        position:absolut;
+        left:0;
+
+
+ 
+    }
+} */
+/* mot de passe */
+#mo{
+    cursor: pointer;
+    padding-top: 10px;
+    color: rgb(9, 88, 153);
+}
+/* souligne */
+#mo:hover{
+    text-decoration: underline;
+    }
+   #mo:focus{
+        outline: none;
+    }
+.bu{
+    border-radius: 30px;
+}
+#no{
+    text-align: center;
+    padding-top: 20px;
+}
+#in{
+    text-align: center;   
+    color: rgb(9, 88, 153);
+    padding-top: 20px;
+    cursor: pointer;
+}
+#in:hover{
+    text-decoration: underline;
+}
+.kj{
+    font-size: 11px;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+.cl{
+    font-size: 11px;
+    padding: 10px;
+    padding-top: 10px;
+}
+#foot{
+    padding-top: 15px;
+}
+.cl:hover{
+    text-decoration: underline;
+}
+#logerreur,#passerreur{
+    color: red;
+    font-size: 12px;
+    text-align: left;
+    padding-left:15px ;
+    display: none;
+}
